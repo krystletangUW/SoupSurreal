@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoupSurreal/Contact</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Avenir" rel="stylesheet">
+  </head>
+  <body>
+    <!--Hamburger menu -->
+    <div class="hamburger">
+    <div id="container">
+      <header>
+        <a href="#container" class="menu-toggle">&#9776;</a>
+      </header>
+      <nav>
+        <a href="#toggle" class="menu-close" id="nav-toggle">X</a>
+        <ul>
+          <li><a href="home.html" class="home">Home</a></li>
+          <li><a href="about.html" class="about">About</a></li>
+          <li><a href="#" class="products">Menu</a>
+            <ul>
+              <li><a href="menu2.html">Vegetarian</a></li>
+              <li><a href="menu1.html">Omnivore</a></li>
+              <li><a href="menu.html">Seasonal</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html" class="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!--end of hamburgermenu-->
+    <div class="parallax">
+        <h1>Contact</h1>
+
+      <div id="container1">
+        <section class="more">
+
+          <form class="center-block" action="index.html" method="post">
+            <div class="form-group">
+              <label for="fullname">Full Name *  </label>
+                <input type="text" id="fullname" class="form-control" name="fullname" placeholder="Jane Doe" required/><br />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *  </label>
+                <input type="text" id="email" class="form-control" name="email" placeholder="jane.doe@example.com" required/><br />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject * </label>
+                <select name="interest" id="interest" class="form-control" required>
+                  <option value="nothing">Please Choose One</option>
+                  <option value="Order">Order</option>
+                  <option value="Event">Event</option>
+                  <option value="Complaint">Complaint</option>
+                </select><br/>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *  </label>
+                <textarea id="message" class="form-control" name="message" rows="5" maxlength="200" placeholder="Write a message here..." required>
+                </textarea><br/>
+            </div>
+
+            <div class="form-group">
+            <input type="submit" button class="btn center" value="SUBMIT"/>
+            </div><br/>
+
+          </form>
+        </section>
+        </div>
+        </div>
+
+        <div class="parallax"></div>
+
+        <!--
+                  Contact info and social media links below
+                -->
+                <div class="footer">
+                <div class="col-3">
+                <div id="contact-us">
+                    <ul>
+                      <li class="footer_col"><h3 class="titles">CONTACT US</h3></li>
+                      <li class="footer_col"><a class="connect" href="mailto:soupsurreal@hotmail.com">soupsurreal@hotmail.com</a></li>
+                      <li class="footer_col"><a class="connect" href="tel:519-497-5167">519-497-5167</a></li>
+                    </ul>
+                  </div>
+                  </div>
+
+                  <div class="col-3">
+                  <div id="follow-us">
+                    <ul class="text-center">
+                      <li class="footer_col"><h3 class="titles">FOLLOW US</h3></li>
+                      <li class="footer_col">
+                        <a class="social-link" href="https://www.facebook.com/SoupSurreal">
+                          <img class="social-icon" src="content/fb.png" alt="facebook" /></a>
+
+                        <a class="social-link" href="https://twitter.com/SoupSurreal">
+                          <img class="social-icon" src="content/tw.png" alt="twitter" /></a>
+
+                        <a class="social-link" href="https://www.instagram.com/soupsurreal1/">
+                          <img class="social-icon" src="content/ig.png" alt="instagram" /></a>
+
+                        <a class="social-link" href="https://www.tripadvisor.ca/Restaurant_Review-g155015-d7390454-Reviews-Soup_Surreal-Stratford_Ontario.html">
+                          <img class="social-icon" src="content/ta.png" alt="tripadvisor" /></a></li>
+
+                    </ul>
+                  </div>
+                </div>
+
+                  <div class="col-3">
+                  <div id="visit-us">
+                    <ul>
+                      <li class="footer_col"><h3 class="titles">VISIT US</h3></li>
+                      <li class="footer_col">98 Wellington Street</li>
+                      <li class="footer_col">Stratford, ON N5A 2L2</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            <p class="copyright"><small>Copyright &copy; 2019 Soup Surreal.</small></p>
+  </body>
+</html>
