@@ -283,7 +283,6 @@ nav ul {
 
 	nav li:hover ul{
 		display: block;
-		background:red;
 	}
 
 	nav li:last-child {
@@ -540,7 +539,7 @@ header a.menu-toggle:focus, nav a.menu-close:focus {
 color: #fff;
 }
 nav a.menu-close {
-background-color: #red;
+background-color: #fdb32b;
 padding-bottom: 0.35em;
 padding-right:1.35em;
 z-index: 3;
