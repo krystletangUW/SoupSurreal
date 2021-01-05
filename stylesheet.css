@@ -312,7 +312,7 @@ nav ul {
     /* Change the link to be bold and underlined purple on hover */
     nav li a:hover {
       border-bottom: 3px solid #d17826;
-      padding-bottom: 10px;
+      padding-bottom: 5px;
       font-weight: bold;
       color: #D17826;
     }
@@ -322,7 +322,9 @@ nav ul {
       font-weight: bold;
       color: #343434;
       border:none;
+      padding: 10px;
       width: 7.8em;
+
     }
 
     /* Change the link to be bold and underlined purple on active mouse */
